@@ -120,12 +120,7 @@ kinit -k -t  /home/dev/xjd/beta/hdfs1.keytab hdfs@hadoop_edw
        
     }
 
-深圳闪银公积金流程查询：
-https://open.wecash.net/merchant/#/login
-用户名：Vincent-FHR  密码：2844483hgez
-闪银公积金整个流程查询：
-https://open.wecash.net/manage/#login
-用户名：fengjr  密码：fengj
+
 
 
 51运营商
