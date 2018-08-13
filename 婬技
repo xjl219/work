@@ -1,0 +1,27 @@
+m.jd.com有很多js和ajax的请求
+
+1.对于所有商品，都能够从详情页面获取对应的商铺ID（shop_id）
+
+2.进入店铺： 
+
+      https://shop.m.jd.com/?shopId=182588
+
+3. 点全部商品-> 任意选一种排序规则，调用ajax请求：
+
+    https://shop.m.jd.com/search/searchWareAjax.json
+
+    post params:{
+
+shopId:
+18258，
+searchPage:
+1，
+searchSort:
+1 ....}(用get请求也ok)
+ 
+4. 返回的json如下：
+wareId就是商品id，从英文推测这个请求是访问仓储信息。
+totalCount字段，猜测是总销量，原因如下：
+根据请求js中销量排序对应的字段
+如果选销量排序的话，大致是按照这个字段排的。（偶尔有不是从大到小的顺序，都是不和逻辑的情况，比如underarmour销量把耳机排第一）
+但是对有些商品，这个字段会有问题，比如鞋的详情页里面有3种颜色选择，对应3个ID，那么这3个ID可能totalcount值一样。
