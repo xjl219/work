@@ -13,8 +13,11 @@ http://idea.lanyus.com
 
 后天run nc
 sh -c 'nc -l 12345 0<&0 1>nc_out &'
+
 sh -c 'nc -l 12345 0<&- 1>nc_out &'
+
 sh -c 'tail -f /dev/null | nc -l 12345 1>nc_out &'
+
 sh -c 'rm -f fifo; mkfifo fifo; exec 3<>fifo; nc -l 12345 0<fifo 1>nc_out &'
 
 sh -c 'nc -lk 6789 0<&0 1>/home/dev/xjd/beta/sparktask &'
