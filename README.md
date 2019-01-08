@@ -7,3 +7,14 @@
 
 [SPARK 启动参数](https://github.com/xjl219/work/wiki/SPARK-%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0)
 
+IntelliJ IDEA 注册码
+http://idea.lanyus.com
+
+
+后天run nc
+sh -c 'nc -l 12345 0<&0 1>nc_out &'
+sh -c 'nc -l 12345 0<&- 1>nc_out &'
+sh -c 'tail -f /dev/null | nc -l 12345 1>nc_out &'
+sh -c 'rm -f fifo; mkfifo fifo; exec 3<>fifo; nc -l 12345 0<fifo 1>nc_out &'
+
+sh -c 'nc -lk 6789 0<&0 1>/home/dev/xjd/beta/sparktask &'
