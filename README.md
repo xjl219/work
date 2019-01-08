@@ -1,50 +1,9 @@
-# work
-日常
+[Android 命令（逆向）](https://github.com/xjl219/work/wiki/android-%E5%91%BD%E4%BB%A4)
+
+[工作相关](https://github.com/xjl219/work/wiki/%E5%B7%A5%E4%BD%9C%E7%9B%B8%E5%85%B3)
+
+[安装 squid](https://github.com/xjl219/work/wiki/%E5%AE%89%E8%A3%85-squid)
 
 
-安装 squid
+[SPARK 启动参数](https://github.com/xjl219/work/wiki/SPARK-%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0)
 
-查看ip
-curl icanhazip.com
-
-yum install -y squid
-
-vim /etc/squid/squid.conf
-初始化Squid
-
-
-squid -z
-启动命令与开机自启
-# 启动
-squid -s
-# 启动
-systemctl start squid.service
-# 停止
-systemctl stop squid.service
-# 重启
-systemctl restart squid.service
- 
-#设置开机自启
-systemctl enable squid.service
-
-
-
-REPORT_APPLICATION_CHECK
-安装 squid
-
-查看ip
-curl icanhazip.com
-
-yum install -y squid
-
-vim /etc/squid/squid.conf
-初始化Squid
-
-
-squid -z
-启动命令与开机自启
-# 启动
-squid -s
- 
-#设置开机自启
-chkconfig  squid on
