@@ -10,8 +10,7 @@
 IntelliJ IDEA 注册码
 http://idea.lanyus.com
 
-
-后天run nc
+后台 run nc
 sh -c 'nc -l 12345 0<&0 1>nc_out &'
 
 sh -c 'nc -l 12345 0<&- 1>nc_out &'
@@ -21,3 +20,11 @@ sh -c 'tail -f /dev/null | nc -l 12345 1>nc_out &'
 sh -c 'rm -f fifo; mkfifo fifo; exec 3<>fifo; nc -l 12345 0<fifo 1>nc_out &'
 
 sh -c 'nc -lk 6789 0<&0 1>/home/dev/xjd/beta/sparktask &'
+
+
+linux中如何查看某一进程的启动时间
+
+
+ps -p PID -o lstart
+
+其中PID是进程的pid
