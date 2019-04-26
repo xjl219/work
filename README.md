@@ -28,3 +28,7 @@ linux中如何查看某一进程的启动时间
 ps -p PID -o lstart
 
 其中PID是进程的pid
+
+查看外网IP
+
+curl ip.sb
