@@ -4,6 +4,8 @@
 
 [安装 squid](https://github.com/xjl219/work/wiki/%E5%AE%89%E8%A3%85-squid)
 
+[flink java 环境](https://github.com/xjl219/work/wiki/flink)
+
 
 [SPARK 启动参数](https://github.com/xjl219/work/wiki/SPARK-%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0)
 
