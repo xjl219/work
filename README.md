@@ -12,6 +12,20 @@
 IntelliJ IDEA 注册码
 http://idea.lanyus.com
 
+大写转小写
+
+search: [A-Z]
+
+replace: \L$0
+
+ 
+
+小写转大写
+
+search: [a-z]
+
+replace: \U$0
+
 后台 run nc
 sh -c 'nc -l 12345 0<&0 1>nc_out &'
 
