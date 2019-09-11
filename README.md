@@ -15,6 +15,9 @@
 IntelliJ IDEA 注册码
 http://idea.lanyus.com
 
+
+ find ./ -maxdepth 1  -name '*-*.sh'  -exec sed -i 's/home\/dev\/xjd\/beta\/hbase-site.xml/home\/dev\/xjd\/file\/hbase-site.xml/g' {} \;
+
 大写转小写
 
 search: [A-Z]
