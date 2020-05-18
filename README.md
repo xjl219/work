@@ -22,6 +22,10 @@
 IntelliJ IDEA 注册码
 http://idea.lanyus.com
 
+Chrome 插件的方法：访问这个网站 https://crxdl.com/ 即可下载 Chrome 扩展插件 Crx 离线安装包。
+
+
+
 
  find ./ -maxdepth 1  -name '*-*.sh'  -exec sed -i 's/home\/dev\/xjd\/beta\/hbase-site.xml/home\/dev\/xjd\/file\/hbase-site.xml/g' {} \;
 
